@@ -80,6 +80,28 @@
         text-align: left;
         margin-bottom: 10px;
       }
+      .spam {
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: gray;
+        margin-top: 15px;
+      }
+      .data {
+        text-align: right;
+      }
+      p,
+      h2 {
+        text-align: left;
+      }
+      H3 {
+        font-size: x-large;
+      }
+      .centro {
+        text-align: center;
+      }
+      footer {
+        background-color: blue;
+      }
     </style>
   </head>
   <body>
@@ -180,43 +202,47 @@
         </table>
         <hr />
         <p>
-          Un test di valutazione potra essere fatto tramite il tool online
-          deicato allo scopo.Una volta ottimizato il tutto,avremo raggiunto il
-          nostro obbiettivo ed essere stati dei veri developers come loro:
+          Un test di valutazione potra essere fatto tramite il qualcosa tipo `<a
+            href="https://www.google.com"
+          >
+            tool online </a
+          >` deicato allo scopo.Una volta ottimizato il tutto,avremo raggiunto
+          il nostro obbiettivo ed essere stati dei veri developers come loro:
         </p>
-        <video controls poster="https://www.youtube.com/watch?v=pnNCvnlmJXg">
+        <iframe controls poster="https://www.youtube.com/watch?v=pnNCvnlmJXg">
           <source
             src="https://www.youtube.com/watch?v=pnNCvnlmJXg"
             type="video/mp4"
           />
-        </video>
-        <div>
+        </iframe>
+        <div class="spam">
           <h2>Novità</h2>
           <p>
             Vuoi rimanere aggiornato su altre novità del blog?Iscriviti alla
             nostra newsletter
           </p>
-          <!-- FORMM -->
+          <label for="email">ISCRIVITI:</label>
+          <input type="email" id="email" name="email" />
         </div>
         <h3>Articoli correlati</h3>
-        <div>
-          <h2>Validare il codice html</h2>
+        <div class="spam">
+          <h2><a href="https://www.google.com"> Validare il codice html</a></h2>
           <p>Categoria:developer</p>
-          <p>data:18-9-2002</p>
+          <p class="data">data:18-9-2002</p>
         </div>
-        <div>
-          <h2>corregere la sintassi</h2>
+        <div class="spam">
+          <h2><a href="https://www.google.com">corregere la sintassi</a></h2>
           <p>Categoria:developer</p>
-          <p>data:18-9-2002</p>
+          <p class="data">data:18-9-2002</p>
         </div>
-        <div>
-          <h2>Meno kb nella pagina</h2>
+        <div class="spam">
+          <h2><a href="https://www.google.com">Meno kb nella pagina</a></h2>
           <p>Categoria:ottimizzazione</p>
-          <p>data:18-9-2002</p>
+          <p class="data">data:18-9-2002</p>
         </div>
       </main>
       <footer>
-        <p>BLOG EPICODE</p>
+        <p class="CENTRO">BLOG EPICODE</p>
         <p>
           Testata online di mario rossi,registrata con prot. n213/2018-Via Luigi
           Einaudi 2-Milano P.IVA001112223333. INFO@EPICODE.SCHOOL.COM
