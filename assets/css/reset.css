@@ -132,7 +132,7 @@ table {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(sfondo.png) ;
+  background-image: url(sfondo.png);
   background-size: 500px auto;
   background-repeat: repeat-y;
 }
